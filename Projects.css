@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a40; /* Purple background */
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    margin: 10%;
+    width: 800px; /* Fixed width */
+    height: 600px; /* Fixed height */
+    border: 0px solid white; /* Optional: Add a border for visibility */
+    position: relative; /* Ensure bubbles are positioned relative to this container */
+    overflow: hidden; /* Prevent bubbles from overflowing outside the container */
+    background-color: #1a1a40; /* Purple background */
+
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; /* Ensure text is readable */
+    font-weight: bold;
+    color: white; /* Ensure text color contrasts with the background */
+    cursor: pointer;
+    transition: transform 2s ease-in-out, opacity 2s ease-in-out;
+    animation: pulse 3s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { transform: scale(0.5); }
+    100% { transform: scale(2); }
+}
+
+.fade-out {
+    opacity: 0;
+}

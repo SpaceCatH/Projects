@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Merchandise</title>
+        <link rel="stylesheet" href="p2styles.css">
+    </head>
+
+
+
+<body>
+
+    <div class="titleContainer">
+        <div class="TitleGroup">
+            <div class="title" id="shuffle">Shuffle</div>
+            <div class="title" id="n">N'</div>
+            <div class="title" id="flow">Flow</div>
+        </div>
+        <div class="instaLogo">
+            <img src="p2images/insta.png" alt="Instagram Logo" class="logo" onclick="window.open('https://www.instagram.com/shuffle_n_flow/', '_blank');" style="cursor: pointer;">
+        </div>
+    </div>
+
+
+    <div class="row">
+       
+        <div class="column">
+            <button class="transparent-button" onclick="window.location.href='p2about.html';">
+                <img src="p2images/about.jpg" alt="Icon" class="button-icon">
+                About
+            </button>
+        </div>
+        <div class="column">
+            
+            <button class="transparent-button" onclick="window.location.href='p2bios.html';">
+                <img src="p2images/roster.png" alt="Icon" class="button-icon">
+                Team Roster
+            </button>
+        </a>
+        </div>
+        <div class="column">
+                <button class="transparent-button" onclick="window.location.href='p2gallery.html';">
+                <img src="p2images/camera.png" alt="Icon" class="button-icon">
+                Gallery
+            </button>
+            </a>
+        </div>
+        <div class="column">
+                <button class="transparent-button" onclick="window.location.href='p2merch.html';">
+                <img src="p2images/merch.jpg" alt="Icon" class="button-icon">
+                Merchandise
+            </button>
+        </div>
+    
+
+    </div>
+    
+
+    <h1 id="merchHeader"></h1>
+<section class ="merch-container">
+       
+        <div>
+            <img src ="p2images/merch1.png" alt="Merch Pic 1" class = "merch" onclick="openModal(this)">
+            <div id="imageModal" class="modal" onclick="closeModal()">
+            <img id="modalImage" class="modal-content">
+            </div>
+        </div>
+
+        <div>
+            <img src ="p2images/merch2.png" alt="Merch Pic 2" class = "merch" onclick="openModal(this)">
+            <div id="imageModal" class="modal" onclick="closeModal()">
+            <img id="modalImage" class="modal-content">
+            </div>
+        </div>
+
+        <div>
+            <img src ="p2images/merch3.png" alt="Merch Pic 3" class = "merch" onclick="openModal(this)">
+            <div id="imageModal" class="modal" onclick="closeModal()">
+            <img id="modalImage" class="modal-content">
+            </div>
+        </div>
+
+        <div>
+            <img src ="p2images/merch4.png" alt="Merch Pic 4" class = "merch" onclick="openModal(this)">
+            <div id="imageModal" class="modal" onclick="closeModal()">
+            <img id="modalImage" class="modal-content">
+            </div>
+        </div>
+
+        <div>
+            <img src ="p2images/merch5.png" alt="Merch Pic 5" class = "merch" onclick="openModal(this)">
+            <div id="imageModal" class="modal" onclick="closeModal()">
+            <img id="modalImage" class="modal-content">
+            </div>
+        </div>
+
+       
+</section>
+  
+
+    <div>
+        <button id="button" onclick="window.location.href='p2shuffle.html';">Back to Home
+        </button>
+    </div>
+</body>
+
+
+<script src="p2script.js"></script>
+</html>

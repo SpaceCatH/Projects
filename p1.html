@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble 1 - Google Sheet</title>
+    <link rel="stylesheet" href="p1styles.css">
+
+</head>
+
+<br><br><br>
+
+<div>
+<button id="button" onclick="window.location.href='projects.html';">Return to Projects
+</button>
+</div>
+<br><br><br>
+
+<body>
+    <h1>The Random Benefits Enrollment Project</h1>
+    <p>One of the first projects I worked on was building a simple Benefits Enrollment experience within Google Sheets. Why did I do it?</p>
+    <ol>
+        <li>I wanted to give myself a ben-admin-related challange.</li>
+        <li>I wanted to explore the idea of simplifying the enrollment experience.</li>
+        <li>I didn't want to pay for Microsoft Excel. Google Sheets is free!</li>
+        <li>I wanted to stretch my creative legs.</li>
+        </ol>
+        <p>Now, this of course doesn't replace more powerful ben admin platforms, but think about how interesting it is that this could be built entirely for free, in only <u>ONE DAY</u>. Small businesses need a quick/easy mechanism for recording enrollments? Easy. Other industries needing basic calculations with dependencies and clean interface? No problem!</p>
+        <p>Looking back, this works better when transferred into a web-based experience, but I hadn't learned that at the time. Now that I have taken Meta courses in front-end development, HTML, CSS, and JavaScript, this is absolutely a possibility.</p>
+        <p>Click the <b></b><u>Expand</u></b> button below to check out my fun little experiment and let me know what you think!</p>
+    <br><br>
+
+
+
+</body>
+<div id="iframeContainer">
+    <iframe 
+        id="googleSheetIframe"
+        src="https://docs.google.com/spreadsheets/d/1klHznTxDq3rR9fWAyG2Htb455bXAJclChyW_H70DMSs/edit?usp=sharing" 
+        width="100%" 
+        height="600" 
+        frameborder="0">
+    </iframe>
+    <br>
+    <button id="expandButton" onclick="toggleIframeSize()">Expand</button>
+</div>
+<br><br><br><br>
+<script src="p1script.js"></script>
+
+</html>
