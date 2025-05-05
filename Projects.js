@@ -4,7 +4,7 @@ const colors = ["#6a0dad", "#8a2be2", "#9370db", "#663399", "#4b0082", "#7b68ee"
 
 // Array of pages for navigation
 //const pages = ["p1.html", "p2shuffle.html", "p3.html", "p4.html", "p5.html", "p6.html", "p7.html", "p8.html", "p9.html", "p10.html"];
-const pages = ["p1.html", "p2shuffle.html", "p3.html", "p4.html", "p5.html"];
+const pages = ["p1.html", "p2.html", "p3.html", "p4.html", "p5.html"];
 
 // Container for bubbles
 const container = document.querySelector(".container");
