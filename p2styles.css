@@ -57,10 +57,14 @@ button {
     margin-top: 10px;
 }
 
+
 img {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white
 }
 
 
