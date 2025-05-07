@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble 5</title>
+    <link rel="stylesheet" href="p5styles.css">
+
+</head>
+
+<br><br><br>
+
+<div>
+<button id="button" onclick="window.location.href='Projects.html';">Return to Projects
+</button>
+</div>
+<br><br><br>
+
+
+
+<body>
+    <div class="container">
+
+        <h1>ACA Reporting Tool</h1>
+        <div id="question-container">
+            
+            <p id="question-text">Welcome! Click "Start" to begin.</p>
+            <br><br>
+            <b><div id="options"></div></b>
+            <button id="start-btn" onclick="startDecision()">Start</button>
+        </div>
+        <br><br><br><br>
+        <div class="nav-buttons">
+            <button id="prev-btn" onclick="goBack()" disabled>Previous</button>
+            <button id="next-btn" onclick="goNext()" disabled>Next</button>
+        </div>
+    </div>
+
+    <script src="p5script.js"></script>
+</body>
+</html>
