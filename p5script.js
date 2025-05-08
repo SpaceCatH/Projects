@@ -142,7 +142,7 @@ function goNext() {
 
 function updateNavButtons() {
     document.getElementById("prev-btn").disabled = currentIndex <= 0;
-    document.getElementById("next-btn").disabled = currentIndex >= history.length - 1;
+   // document.getElementById("next-btn").disabled = currentIndex >= history.length - 1;
 }
 
 function restart() {

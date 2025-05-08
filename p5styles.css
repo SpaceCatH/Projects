@@ -57,11 +57,9 @@ buttonQuestion {
 
 .nav-buttons {
     position: relative;
-    padding: 10px 30px;
-    margin: 20px;
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
   
  
 }
@@ -89,3 +87,8 @@ buttonQuestion:hover {
     background-color: #e00987;
 }
   
+
+.responsive-image {
+    width: 600px;
+    height: auto;
+}
