@@ -44,13 +44,18 @@ button {
     padding: 10px 30px;
     margin: 20px;
     border: none;
-    background-color: #9b0f22;
+    background-color: #e00987;
     color: white;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     text-align: left;
 
+}
+
+.buttonQuestion:hover {
+    
+    background-color: #9b0f22;
 }
 
 .nav-buttons {
@@ -82,9 +87,7 @@ button:disabled {
 
 
 
-.buttonQuestion:hover {
-    background-color: #e00987;
-}
+
   
 
 .responsive-image {
