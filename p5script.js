@@ -97,10 +97,11 @@ let currentIndex = -1;
 function startDecision() {
     showQuestion("start");
     document.getElementById("start-btn").style.display = "none";
+    document.getElementById("restart-btn").style.display = "block";
 }
 
+
 function showQuestion(key) {
-    const questionContainer = document.getElementById("question-container");
     const questionText = document.getElementById("question-text");
     const optionsDiv = document.getElementById("options");
 
@@ -113,8 +114,8 @@ function showQuestion(key) {
             const btn = document.createElement("buttonQuestion");
             btn.textContent = option.text;
             btn.onclick = () => {
-                history.push(key);
-                currentIndex++;
+                history.push(key); // Store current question in history
+                currentIndex = history.length - 1; // Update index correctly
                 showQuestion(option.next);
                 updateNavButtons();
             };
@@ -144,3 +145,6 @@ function updateNavButtons() {
     document.getElementById("next-btn").disabled = currentIndex >= history.length - 1;
 }
 
+function restart() {
+    location.reload("p5modeler.html");
+}
