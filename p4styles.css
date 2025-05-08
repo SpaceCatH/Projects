@@ -9,8 +9,8 @@ body {
     font-size: 14px;
     width: 100%;
     height: auto;
-    max-width: 800px; /* Set a max width for the body */
-    margin: 0 auto; /* Center the body horizontally */
+    max-width: 800px; 
+    margin: 0 auto; 
   
 }
 
@@ -32,7 +32,8 @@ img {
     height: auto;
     display: block;
 }
-#vaseImage {
+
+#image {
 
    
     width: 50%;
@@ -41,28 +42,22 @@ img {
     border-radius: 10%;
     margin: 0;
     padding: 0;
-    display: block; /* Ensures it behaves like a block-level element */
+    display: block; 
 
 }
 
-#turtle-images {
-
-   
-    width: 50%;
-    height:auto;
-    max-width: 300px;
-    border-radius: 10%;
-    margin: 0;
-    padding: 0;
-    display: block; /* Ensures it behaves like a block-level element */
-
-}
+.vase-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 40px; 
+}   
 
 .turtle-container {
     display: flex;
     align-items: center;
-    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
-    gap: 40px; /* Space between images */
+    flex-wrap: wrap; 
+    gap: 40px; 
 }   
 
 .modal {

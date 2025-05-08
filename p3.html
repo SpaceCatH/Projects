@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bubble 3 - #D Print</title>
+    <title>Project 3 - Shuffleboard</title>
     <link rel="stylesheet" href="p3styles.css">
 
 </head>
@@ -15,53 +15,30 @@
 </button>
 </div>
 <br><br><br>
+
 <body>
     
+    <h1>The Shuffleboard Team Page</h1>
+    <p>When I joined bswift, the company was well-established but maintained its start-up spirit. This meant the role required a lot of hands-on, learn-by-doing experiences, which I loved! One of the most fun aspects was learning and deploying basic HTML for displaying information on the benefits site. This experience piqued my interest in HTML and front-end development. During my time away, I spent a couple of weeks speeding through Meta's courses on Coursera and practiced by creating the page linked below.</p> 
+    <p id="question"><b>But why shuffleboard, you ask?</b></p>
+    <p>My partner, Laura, introduced me to shuffleboard several months ago. Yes, it's that game that typically older folks play on the decks of cruise ships. At first, I thought the goal was just to slide the "biscuits" into the point areas to score as many points as possible. What I learned after playing several matches was that this is actually a much deeper strategic experience, kind of like Chess. An opponent can easily knock off one of your scored biscuits, so you instead need to find ways of hiding behind other biscuits. It's adult Hide N' Seek!</p> 
+    <p>Me being a thinker, this game immediately grabbed my attention, so naturally, I began my coding practice by building a page for our league team.</p>
+    <p>The page is fully designed from scratch--no WordPress or other modularized site used. I constructed it with my own code, along with some AI editing assistance. I'm really proud of this start and would love to improve upon it once I have some ideas and more experience. <b><u>I'm still new!</u></b> Some things to notice:</p>
+    <ul>
+        <li>I added a fun background song. Hopefully it plays!</li>
+        <li>I created a slide-in title and all of the buttons. These seem like small things, but they required lots of styling.</li>
+        <li>The home page includes a Question of the Day box which cycles through some shuffleboard trivia I Googled.</li>
+        <li>There are embedded links to separate HTML pages, including Team Bios. Note: not all team members are represented (yet).</li>
+        <li>The Bios page includes "cards" with shading around the edges.</li>
+        <li>We don't truly have Merchandise, so I spent some time desinging fun t-shirts on Canva!</li>
+              
+    </ul>
+    <p>Click below to explore!</p>
+    <br><br>
     <div>
-    <h1>My 3D Printing Adventure</h1>
-    <p>Since leaving bswift, I found myself with some extra time to explore new hobbies. One day, my friend Marcus randomly asked whether I wanted to borrow his 3D printer. "Heck yeah!" I said. He dropped off this large, boxy machine that didn't look easy to use. He said I would figure it out.</p>
-    <p>This thing terrified me at first. Bed height and leveling, extrusion, temperature--all aspects I knew nothing about. I started by downloading someone else's design for a vase. It was really cool watching the printer build the model from bottom-up over the course of 5 or so hours. However, at that point, I noticed it was printing a solid object and not the hollowed version for inserting flowers. That's when I went down a rabbit hole of research into various print settings for a hollowed object. In the end, it was as simple as adjusting the Infill to 0 and thickening the Walls.</p>
-    <p>The vase turned out great! I only had to stop it before it reached full height since I was heading to Palm Springs for a vacation.</p>
-        <div class = "vase-container">    
-            <div id ="image"><img src="p3images/3D1.jpg" alt="Vase Image" onclick="openModal(this)">
-                <div id="imageModal" class="modal" onclick="closeModal()">
-                <img id="modalImage" class="modal-content">
-                </div>
-            </div> 
-            <div id ="image"><img src="p3images/3D4.jpg" alt="Dice Image" onclick="openModal(this)">
-                <div id="imageModal" class="modal" onclick="closeModal()">
-                <img id="modalImage" class="modal-content">
-                </div>
-            </div> 
+        <img src ="p3images/ShuffleLogo.png" alt="Shuffleboard Logo" width="300" onclick="window.open('p3shuffle.html', '_blank');" style="cursor: pointer;" id="logo">
+        
         </div>
-    <p>I found that printing pre-designed objects was super easy once I had downloaded the appropriate software. But what I really wanted to learn was how to create my own designs. I found an easy-ish CAD program where I could use various shapes to add/erase, and adjust positioning, angles, and height. It took several days of practice, but I finally go the hang of it.</p>
-    <p>I started with designing some dice for games. Easy peasy. I next moved onto designing an object to help keep our dryer door from swinging shut and hitting us in the head (very annoying). Works well, but it is a little ugly.</p>
-    <p>And most recently, I designed this little remote-control holder shaped like a turtle because Laura likes turtles.</p>
-        <div class = "turtle-container">
-            <div id="image"><img src="p3images/3D2.jpg" alt="Turtle Image 1" onclick="openModal(this)">
-                <div id="imageModal" class="modal" onclick="closeModal()">
-                <img id="modalImage" class="modal-content">
-                </div>
-            </div>
-            <div id="image"><img src="p3images/3D3.jpg" alt="Turtle Image 2" onclick="openModal(this)">
-                <div id="imageModal" class="modal" onclick="closeModal()">
-                <img id="modalImage" class="modal-content">
-                </div>
-            </div>
-        </div>
-    <p>I love tinkering around with design and printing objects. It just takes a lot of time, so I have to be very deliberate in my attempts. Overall, it has been a fun journey, and I'm happy to have acquired some new skills!</p>
-    </div>
-
-    <div id ="image"><img src="p3images/toothbrush.png" alt="Toothbrush Holder Image" onclick="openModal(this)">
-        <div id="imageModal" class="modal" onclick="closeModal()">
-        <img id="modalImage" class="modal-content">
-        </div>
-    </div> 
+<br><br><br>
 </body>
-<br><br><br>
-<br><br><br>
-
-<script src="p3script.js"></script>
-
-
 </html>

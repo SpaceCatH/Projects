@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bubble 5</title>
+    <title>Project 5</title>
     <link rel="stylesheet" href="p5styles.css">
 
 </head>
@@ -18,24 +18,30 @@
 
 
 
-<body class="body1">
-    <p>OK, buckle up!</p>
-    <p>You know that Form 1095-C and/or Form 1095-B you receive the first quarter of each year? It lists each month of the year, along with some codes that probably don’t make a lot of sense. Large companies and insurers need to furnish these annually, and I’ve built a <b><u>fun little tool</u></b> to help in determining the correct codes.</p>
-   
-    <p>
-        <button class="buttonQuestion" onclick="window.location.href='p5modeler.html';">START MODELER
-        </button> 
-    </p>
-    <br>
-    <img src="p5images/1095c.png" alt="1095-C Form">
-    <p><b>Background:</b></p>
-    <p>The Affordable Care Act signed into law in 2010 was intended to ensure everyone had access to health insurance at a reasonable price. Of its many components, there were two specific mandates I will address here:</p>
-    <p><b>Individual Mandate:</b> The Individual Mandate required that each individual have health insurance or be subject to a penalty enforced by the IRS. This penalty no longer applies at the Federal level. </p>
-    <p><b>Employer Mandate:</b> The Employer Mandate required that large employers subsidize health insurance for full-time employees such that it would be affordable. Large penalties are assessed for non-compliance.</p>
-    <p>Form 1095-C (and its codes) shows when an offer of coverage was made. In other words, this is your company letting the IRS know that it met the Employer Mandate to offer you coverage at an affordable rate. Additionally, if the company also served as the insurer (they pay the claims), the form will include coverage information in Part III.</p>
-    <p>You may receive a separate Form 1095-B showing coverage information in Part IV if your company is not the insurer and another company, such as Aetna, is. This is a way of making sure coverage information comes directly from the insurer and is therefore as accurate as possible.</p>
-    <p>Make sense? If you're into this, play with the modeler to learn more!</p>
-    <br><br><br><br><br>
+
+<body>
+    <!-- Cover Page -->
+    <div id="cover" class="screen active">
+        <h1>The Black Spot</h1>
+        <img src="cover-image.jpg" alt="Mysterious black spot">
+        <p>By Jonathan Eng</p>
+        <button onclick="startBook()">Begin</button>
+    </div>
+
+    <!-- Story Pages -->
+    <div id="book">
+        <div id="screen" class="screen">
+            <div class="frame" id="frame1"><img id="image1" src="" alt="Story image"></div>
+            <div class="frame" id="frame2"><p id="text1"></p></div>
+          </div>
+
+        <div class="buttons">
+            <button onclick="prevScreen()">Back</button>
+            <button onclick="nextScreen()">Next</button>
+        </div>
+
+    </div>
+
     <script src="p5script.js"></script>
 </body>
 </html>

@@ -9,12 +9,42 @@ body {
     font-size: 14px;
     width: 100%;
     height: auto;
-    max-width: 800px; 
-    margin: 0 auto; 
+    max-width: 800px; /* Set a max width for the body */
+    margin: 0 auto; /* Center the body horizontally */
   
 }
 
 
+#iframeContainer {
+    position: relative; /* Default positioning */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center content inside the container */
+}
+
+#iframeContainer.expanded {
+    position: fixed; /* Fix the container in the viewport */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the container's size */
+    z-index: 1000; /* Ensure it appears above other content */
+    background-color: rgba(0, 0, 0, 0.8); /* Optional: Add a background for emphasis */
+    padding: 20px; /* Optional: Add padding around the iframe */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center iframe horizontally */
+    align-items: center; /* Center iframe vertically */
+}
+
+#iframeContainer iframe {
+    width: 100%; /* Allow the iframe to expand fully */
+    height: 100%; /* Allow the iframe to expand fully */
+    transition: height 0.3s ease-in-out, width 0.3s ease-in-out; /* Smooth resizing */
+}
+
+body.no-margin {
+    margin: 0; /* Remove all margins */
+    overflow: hidden; /* Prevent scrolling when iframe is expanded */
+}
 
 button {
     padding: 10px 15px;
@@ -27,38 +57,16 @@ button {
     margin-top: 10px;
 }
 
+
 img {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white
 }
 
-#image {
-
-   
-    width: 50%;
-    height:auto;
-    max-width: 300px;
-    border-radius: 10%;
-    margin: 0;
-    padding: 0;
-    display: block; 
-
-}
-
-.vase-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap; 
-    gap: 40px; 
-}   
-
-.turtle-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap; 
-    gap: 40px; 
-}   
 
 .modal {
     display: none;

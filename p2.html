@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bubble 2 - Shuffleboard</title>
+    <title>Project 2 - ACA</title>
     <link rel="stylesheet" href="p2styles.css">
 
 </head>
@@ -16,29 +16,26 @@
 </div>
 <br><br><br>
 
-<body>
-    
-    <h1>The Shuffleboard Team Page</h1>
-    <p>When I joined bswift, the company was well-established but maintained its start-up spirit. This meant the role required a lot of hands-on, learn-by-doing experiences, which I loved! One of the most fun aspects was learning and deploying basic HTML for displaying information on the benefits site. This experience piqued my interest in HTML and front-end development. During my time away, I spent a couple of weeks speeding through Meta's courses on Coursera and practiced by creating the page linked below.</p> 
-    <p id="question"><b>But why shuffleboard, you ask?</b></p>
-    <p>My partner, Laura, introduced me to shuffleboard several months ago. Yes, it's that game that typically older folks play on the decks of cruise ships. At first, I thought the goal was just to slide the "biscuits" into the point areas to score as many points as possible. What I learned after playing several matches was that this is actually a much deeper strategic experience, kind of like Chess. An opponent can easily knock off one of your scored biscuits, so you instead need to find ways of hiding behind other biscuits. It's adult Hide N' Seek!</p> 
-    <p>Me being a thinker, this game immediately grabbed my attention, so naturally, I began my coding practice by building a page for our league team.</p>
-    <p>The page is fully designed from scratch--no WordPress or other modularized site used. I constructed it with my own code, along with some AI editing assistance. I'm really proud of this start and would love to improve upon it once I have some ideas and more experience. <b><u>I'm still new!</u></b> Some things to notice:</p>
-    <ul>
-        <li>I added a fun background song. Hopefully it plays!</li>
-        <li>I created a slide-in title and all of the buttons. These seem like small things, but they required lots of styling.</li>
-        <li>The home page includes a Question of the Day box which cycles through some shuffleboard trivia I Googled.</li>
-        <li>There are embedded links to separate HTML pages, including Team Bios. Note: not all team members are represented (yet).</li>
-        <li>The Bios page includes "cards" with shading around the edges.</li>
-        <li>We don't truly have Merchandise, so I spent some time desinging fun t-shirts on Canva!</li>
-              
-    </ul>
-    <p>Click below to explore!</p>
-    <br><br>
-    <div>
-        <img src ="p2images/ShuffleLogo.png" alt="Shuffleboard Logo" width="300" onclick="window.open('p2shuffle.html', '_blank');" style="cursor: pointer;" id="logo">
-        
-        </div>
-<br><br><br>
+
+
+<body class="body1">
+    <p>OK, buckle up!</p>
+    <p>You know that Form 1095-C and/or Form 1095-B you receive the first quarter of each year? It lists each month of the year, along with some codes that probably don’t make a lot of sense. Large companies and insurers need to furnish these annually, and I’ve built a <b><u>nifty little tool</u></b> to help in determining the correct codes.</p>
+   
+    <p>
+        <button class="buttonQuestion" onclick="window.location.href='p2modeler.html';">START MODELER
+        </button> 
+    </p>
+    <br>
+    <img src="p2images/1095c.png" alt="1095-C Form">
+    <p><b>Background:</b></p>
+    <p>The Affordable Care Act signed into law in 2010 was intended to ensure everyone had access to health insurance at a reasonable price. Of its many components, there were two specific mandates I will address here:</p>
+    <p><b>Individual Mandate:</b> The Individual Mandate required that each individual have health insurance or be subject to a penalty enforced by the IRS. This penalty no longer applies at the Federal level. </p>
+    <p><b>Employer Mandate:</b> The Employer Mandate required that large employers subsidize health insurance for full-time employees such that it would be affordable. Large penalties are assessed for non-compliance.</p>
+    <p>Form 1095-C (and its codes) shows when an offer of coverage was made. In other words, this is your company letting the IRS know that it met the Employer Mandate to offer you coverage at an affordable rate. Additionally, if the company also served as the insurer (they pay the claims), the form will include coverage information in Part III.</p>
+    <p>You may receive a separate Form 1095-B showing coverage information in Part IV if your company is not the insurer and another company, such as Aetna, is. This is a way of making sure coverage information comes directly from the insurer and is therefore as accurate as possible.</p>
+    <p>Make sense? If you're into this, play with the modeler to learn more!</p>
+    <br><br><br><br><br>
+    <script src="p2script.js"></script>
 </body>
 </html>

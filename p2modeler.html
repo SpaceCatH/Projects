@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble 5</title>
+    <link rel="stylesheet" href="p2styles.css">
+
+</head>
+
+<br><br><br>
+
+<div>
+<button id="button" onclick="window.location.href='Projects.html';">Return to Projects
+</button>
+</div>
+<br><br><br>
+
+
+
+<body>
+    <div class="container">
+
+        <h1>ACA Reporting Decision Tree     <img src = "p2images/tree.jpg" alt="tree" height = "80px"></h1>
+        <div id="question-container">
+            
+            <p id="question-text">Welcome! Click "Start" to begin.</p>
+            <br><br>
+            <b><div id="options"></div></b>
+            <button id="start-btn" onclick="startDecision()">Start</button>
+            
+
+        </div>
+        <br><br><br><br>
+        <div class="nav-buttons">
+            <button id="prev-btn" onclick="goBack()" disabled>Previous</button>
+            <button id="next-btn" onclick="goNext()" disabled>Next</button>
+            <button id="restart-btn" onclick="restart()" style="display: none;">Start Over</button>
+        </div>
+    </div>
+
+    <script src="p2script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
