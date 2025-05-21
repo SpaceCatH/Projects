@@ -49,7 +49,7 @@ primaryEIN: {
 },
 
 overrideOne: {
-    text: "Special scenario 1 (not common): Did the coverage offered provide MEC and MV to the employee, at least MEC to the spouse, conditionally, and no MEC to dependents?",
+    text: "Special scenario 1 (not common): Did the coverage offered provide Minimum Essential Coverage (MEC) and Minimum Value (MV) to the employee, at least MEC to the spouse, conditionally, and no MEC to dependents?",
     options: [
         { text: "Yes", next: "oneJ" },
         { text: "Not applicable", next: "overrideTwo" }
@@ -57,7 +57,7 @@ overrideOne: {
 },
 
 overrideTwo: {
-    text: "Special scenario 2 (not common): Did the coverage offered provide MEC and MV to the employee, at least MEC to the spouse, conditionally, and at least MEC to dependents?",
+    text: "Special scenario 2 (not common): Did the coverage offered provide Minimum Essential Coverage (MEC) and Minimum Value (MV) to the employee, at least MEC to the spouse, conditionally, and at least MEC to dependents?",
     options: [
         { text: "Yes", next: "oneK" },
         { text: "Not applicable", next: "coverageOffer" }
