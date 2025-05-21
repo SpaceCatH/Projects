@@ -249,5 +249,5 @@ function updateNavButtons() {
 }
 
 function restart() {
-    location.reload("p5modeler.html");
+    location.reload("p2modeler.html");
 }
