@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 5</title>
+    <title>Project 5 - Mobile App</title>
     <link rel="stylesheet" href="p5styles.css">
 
 </head>
@@ -15,37 +15,51 @@
 </button>
 </div>
 <br><br><br>
-
-
-
-
 <body>
-
     
-    <!-- Cover Page -->
-    <div id="cover" class="screen active">
-        <h1>Coming Soon...</h1>
-      <!--   <img src="cover-image.jpg" alt="Mysterious black spot">
-      <p>By Jonathan Eng</p>
-        <button onclick="startBook()">Begin</button>-->
-    </div>
+    <div>
+    <h1>Get your stamps here!</h1>
+    <p>Remember the days when we would proudly show off our passport stamps? Nowadays, some countries don't even issue a stamp. Finding myself with some extra time, I went ahead and solved for this by building a mobile app! Over time, this evolved into a full-fledged travel app with several exciting features. Check out the sample images below!</p>
+    <p>This is currently a passion project. Still exploring monetization options for those of you itching to pay. 😊</p>
 
-    <!-- Story Pages -->
-
-    <!-- 
-    <div id="book">
-        <div id="screen" class="screen">
-            <div class="frame" id="frame1"><img id="image1" src="" alt="Story image"></div>
-            <div class="frame" id="frame2"><p id="text1"></p></div>
-          </div>
-
-        <div class="buttons">
-            <button onclick="prevScreen()">Back</button>
-            <button onclick="nextScreen()">Next</button>
+        <div class = "vase-container">    
+            <div id ="image"><img src="p5images/Home Screen.PNG" alt="Home Screen Image" onclick="openModal(this)">
+                <div id="imageModal" class="modal" onclick="closeModal()">
+                <img id="modalImage" class="modal-content">
+                </div>
+            </div> 
+            <div id ="image"><img src="p5images/Passport.PNG" alt="Passport Image" onclick="openModal(this)">
+                <div id="imageModal" class="modal" onclick="closeModal()">
+                <img id="modalImage" class="modal-content">
+                </div>
+            </div> 
+            <div id ="image"><img src="p5images/Travel Card.PNG" alt="Travel Card Image" onclick="openModal(this)">
+                <div id="imageModal" class="modal" onclick="closeModal()">
+                <img id="modalImage" class="modal-content">
+                </div>
+            </div> 
+            <div id ="image"><img src="p5images/Postcard.PNG" alt="Postcard Image" onclick="openModal(this)">
+                <div id="imageModal" class="modal" onclick="closeModal()">
+                <img id="modalImage" class="modal-content">
+                </div>
+            </div> 
+            <div id ="image"><img src="p5images/Stories.PNG" alt="Featured Stories Image" onclick="openModal(this)">
+                <div id="imageModal" class="modal" onclick="closeModal()">
+                <img id="modalImage" class="modal-content">
+                </div>
+            </div> 
+            <div id ="image"><img src="p5images/Trip Library.PNG" alt="Travel Library Image" onclick="openModal(this)">
+                <div id="imageModal" class="modal" onclick="closeModal()">
+                <img id="modalImage" class="modal-content">
+                </div>
+            </div> 
         </div>
-
-    </div>
--->
-    <script src="p5script.js"></script>
+    
 </body>
+<br><br><br>
+<br><br><br>
+
+<script src="p5script.js"></script>
+
+
 </html>
