@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelApp – Trip Itinerary Sender</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 16px;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1 { color: #1d4ed8; }
+    h2 { margin-top: 2em; }
+    p { margin-bottom: 1em; }
+    footer { margin-top: 3em; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>TravelApp</h1>
+  <p><strong>TravelApp</strong> is a mobile tool that helps users build and share personalized trip itineraries.</p>
+
+  <h2>Email Use</h2>
+  <p>
+    When a user creates a trip itinerary in the app, they can choose to email a copy of that itinerary to
+    themselves or a few contacts they specify. The app converts the trip information into a clean, user-friendly
+    HTML email using a predefined system template.
+  </p>
+
+  <p>
+    All emails are <strong>user-initiated and transactional</strong>. Users cannot send bulk or marketing messages,
+    and there are no mailing lists, subscriptions, or promotional content.
+  </p>
+
+  <h2>Privacy and Safety</h2>
+  <p>
+    The app only sends emails that the user explicitly requests. We use Amazon Simple Email Service (SES)
+    to handle reliable delivery and automatically process bounces and complaints via Amazon SNS.
+  </p>
+
+  <footer>
+    &copy; 2025 TravelApp. Created by Jonathan Eng.
+  </footer>
+</body>
+</html>
